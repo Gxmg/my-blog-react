@@ -23,4 +23,9 @@ npm i -D @babel/core
     "@babel/preset-react"
   ]
 
-  ## 对了还有，一个记得配置文件种，entry 入口配置：babel-prolyfill,如果没有module 就安装npm i -D 安装一下
+  ## 对了还有，webpack配置文件中，entry 入口配置：babel-prolyfill,如果没有module 就安装npm i -D 安装一下
+
+  ## 下一步安装 各种loader：
+  1. npm install style-loader css-loader url-loader --save-dev 
+  2. npm install sass-loader node-sass --save-dev 
+  3. npm install --save-dev mini-css-extract-plugin （提取css文件单独打包）
