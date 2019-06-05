@@ -29,3 +29,6 @@ npm i -D @babel/core
   1. npm install style-loader css-loader url-loader --save-dev 
   2. npm install sass-loader node-sass --save-dev 
   3. npm install --save-dev mini-css-extract-plugin （提取css文件单独打包）
+
+  ## 配置热更新 在devServer里面配置不生效，在package.json 可以 --hot --open
+  "dev": "webpack-dev-server --open --hot --mode development --config build/webpack.dev.js",

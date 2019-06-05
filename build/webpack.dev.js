@@ -2,6 +2,7 @@
 const merge = require('webpack-merge');
 const path = require('path');
 const webpack = require('webpack');
+const FriendlyErrorsWebpackPlugin = require('friendly-errors-webpack-plugin'); 
 const common = require('./webpack.common.js');
 
 module.exports = merge(common, {
@@ -10,6 +11,7 @@ module.exports = merge(common, {
   devServer: {
   },
   plugins: [
-    new webpack.HotModuleReplacementPlugin()
+    new webpack.HotModuleReplacementPlugin(),
+    new FriendlyErrorsWebpackPlugin()
   ]
 })
