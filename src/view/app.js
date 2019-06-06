@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
+import Header from './commponent/header/header.js'
 import './css/index.scss';
 export default class App extends Component{
   render() {
-    return (<div className="app">这是一个react组件,hello world</div>);
+    return (<Header />);
   }
 }

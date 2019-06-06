@@ -1,0 +1,24 @@
+[
+  {
+    "url": "/api/industral/industralInfo",
+    "desc": "工业互联-获取所有分类列表",
+    "mock": true,
+    "res": {
+      "code": 200,
+      "msg": "",
+      "data": {
+        "name": "gaoxiaodong",
+        "age": "18",
+        "work": "前端开发",
+        "blog": "http://localhost:8080",
+        "cpmpany": "亚信科技"
+      }
+    },
+    "comment":{
+      "reqParam":{
+      },
+      "resParam":{
+      }
+    }
+  }
+]
